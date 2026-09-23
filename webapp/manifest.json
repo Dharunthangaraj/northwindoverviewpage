@@ -98,7 +98,11 @@
       }
     },
     "resources": {
-      "css": []
+      "css": [
+              {
+              "uri": "css/style.css"
+               }
+      ]
     },
     "routing": {
       "config": {},
@@ -117,7 +121,7 @@
                 "model": "mainModel",
                 "template": "sap.ovp.cards.list",
                 "settings": {
-                  "title": "Customers",
+                  "title": "👥 Customers",
                   "entitySet": "Customers",
                   "annotationPath": "com.sap.vocabularies.UI.v1.LineItem"
                 }
@@ -126,7 +130,7 @@
                 "model": "mainModel",
                 "template": "sap.ovp.cards.table",
                 "settings": {
-                  "title": "Orders",
+                  "title": "🛒 Orders",
                   "entitySet": "Orders",
                   "annotationPath": "com.sap.vocabularies.UI.v1.LineItem"
                 }
@@ -135,9 +139,41 @@
                 "model": "mainModel",
                 "template": "sap.ovp.cards.list",
                 "settings": {
-                  "title": "Products",
+                  "title": "📦 Products",
                   "entitySet": "Products",
                   "annotationPath": "com.sap.vocabularies.UI.v1.LineItem"
+                }
+              },
+              "suppliersCard": {
+                "model": "mainModel",
+                "template": "sap.ovp.cards.list",
+                "settings": {
+                  "title": "🚚 Suppliers",
+                  "entitySet": "Suppliers"
+                }
+              },
+              "categoriesCard": {
+                "model": "mainModel",
+                "template": "sap.ovp.cards.list",
+                "settings": {
+                  "title": "📂 Categories",
+                  "entitySet": "Categories"
+                }
+              },
+              "shippersCard": {
+                "model": "mainModel",
+                "template": "sap.ovp.cards.list",
+                "settings": {
+                  "title": "🚢 Shippers",
+                  "entitySet": "Shippers"
+                }
+              },
+              "inventoryCard": {
+                "model": "mainModel",
+                "template": "sap.ovp.cards.table",
+                "settings": {
+                  "title": "📦 Inventory",
+                  "entitySet": "Products"
                 }
               }
     }

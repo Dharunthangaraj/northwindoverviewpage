@@ -1,0 +1,27 @@
+.sapOvpBaseCard {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12) !important;
+}
+
+.sapOvpHeaderTitle {
+    color: #0a6ed1 !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+}
+
+.sapMPage {
+    background: #f5f7fa !important;
+}
+
+.sapMPage {
+    background: linear-gradient(
+        135deg,
+        #eef4ff,
+        #f7f9fc
+    ) !important;
+}
+
+.sapOvpBaseCard:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
